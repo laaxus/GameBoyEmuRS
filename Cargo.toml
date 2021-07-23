@@ -1,11 +1,19 @@
 [package]
 name = "GameBoyEmuRS"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Antoine Demblon <antoinedemblon@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sdl2 = "0.34.5"
+byteorder = "1.3"
+env_logger = "0.9"
+getrandom = "0.2"
+line_drawing = "0.8"
+log = "0.4"
 pixels = "0.5.0"
+rand = "0.8.4"
+randomize = "3.0"
+winit = "0.25"
+winit_input_helper = "0.10"
